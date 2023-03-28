@@ -1,0 +1,30 @@
+body {
+    background: url(../images/7598163.jpg) center;
+    background-attachment: fixed;
+    background-size:cover;
+}
+main {
+    display:flex; flex-flow:column nowrap;
+    align-items: center;
+    justify-content: center; height:100vh;
+}
+main .photo {
+    width:200px; height:200px; overflow:hidden; 
+    border-radius: 50%; border:5px solid #fff;
+}  
+main .photo img {
+    width:100%;
+}
+main h1 {margin-bottom:20px;}
+main .loading {}
+main .loading .bar {}
+main p {}
+main .sns {display:flex; }  
+main .sns a {width:25px;}
+main .sns a img {width:100%;}
+main .sns a .tip {}
+main .gnb {}
+main .gnb span {}
+main .gnb span:nth-child(1) {}
+main .gnb span:nth-child(2) {}
+main .gnb span:nth-child(3) {}
